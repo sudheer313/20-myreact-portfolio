@@ -15,8 +15,7 @@ function App() {
         <Header />
         <Routes>
           {/*http://localhost:3000/ */}
-
-          <Route>
+          <Route path="/20-myreact-portfolio">
             <Route index element={<Navigate to="About" />} />
             {/*http://localhost:3000/About */}
             <Route path="About" element={<About />} />

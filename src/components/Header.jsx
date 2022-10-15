@@ -7,11 +7,11 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
   const [navState, setNavState] = useState(false);
   return (
-    <div >
+    <div>
       <nav>
         <div className="brand-container">
           <div className="brand">
-            <Link to="/" className="logo">
+            <Link to="/20-myreact-portfolio" className="logo">
               Sudheer Kandula
             </Link>
           </div>

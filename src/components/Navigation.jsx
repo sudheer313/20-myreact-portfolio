@@ -13,7 +13,7 @@ const Navigation = ({ navState, setNavState }) => {
       <ul className="links">
         {navigationTitles.map((navTitle) => (
           <li key={navTitle} onClick={() => setNavState((prev) => false)}>
-            <Link to={`${navTitle}`} className="link">
+            <Link to={`/20-myreact-portfolio/${navTitle}`} className="link">
               {" "}
               {navTitle}{" "}
             </Link>
